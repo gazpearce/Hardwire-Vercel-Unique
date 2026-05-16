@@ -32,6 +32,21 @@
   ]
 }
     </script>
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-analytics.js";
+        const firebaseConfig = {
+            apiKey: "AIzaSyD-v7CeX5obcmRomffFkZFQdK1AcxTtFa0",
+            authDomain: "website-builder-a8ec4.firebaseapp.com",
+            projectId: "website-builder-a8ec4",
+            storageBucket: "website-builder-a8ec4.firebasestorage.app",
+            messagingSenderId: "654656277365",
+            appId: "1:654656277365:web:f674d89b2f78d5aca3e13c",
+            measurementId: "G-289XQTED9B"
+        };
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
 </head>
 <body>
     <header>
